@@ -1,0 +1,49 @@
+.dFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: #ffffff;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  font-size: 14px;
+  margin-left: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: rgba(#ffffff, 0.7);
+  cursor: pointer;
+}
+
+.search {
+  color: rgba(#ffffff, 0.7);
+}
+
+.fa {
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.icon {
+  margin: 5px;
+}
